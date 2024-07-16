@@ -1,0 +1,11 @@
+add error handling : 
+    out of bound query for get/patch/del
+    
+
+issues : 
+    was getting payload error : 
+    fix:it was suppoed to be "email" not "userEmail" in the payload of the validate function of jwtStrategy file
+
+to fix : 
+    patch method
+    get by ID method
